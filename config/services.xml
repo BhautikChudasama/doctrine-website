@@ -21,6 +21,8 @@
 
         <service id="Doctrine\Website\Application" autowire="true" public="true" />
 
+        <service id="Doctrine\Website\Projects\ProjectVersionsReader" autowire="true" public="true" />
+
         <service id="Doctrine\Website\Projects\ProjectDataRepository" autowire="true" />
 
         <service id="Doctrine\RST\Builder">
